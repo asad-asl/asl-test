@@ -1,0 +1,5 @@
+ervices:
+  frontend:
+    image: awesome/webapp
+    ports:
+      - "443:8043"
