@@ -3,3 +3,6 @@ ervices:
     image: awesome/webapp
     ports:
       - "443:8043"
+networks:
+      - front-tier
+      - back-tier
